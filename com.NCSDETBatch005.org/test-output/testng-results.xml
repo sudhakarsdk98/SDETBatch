@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-12T14:46:33Z" name="Default suite" finished-at="2024-02-12T14:47:05Z" duration-ms="31279">
+    <groups>
+      <group name="NCLoginCredentials">
+        <method signature="TC01NCLogin.ncEmail_TC_0001()[pri:1, instance:entireSDET.TC01NCLogin@4722ef0c]" name="ncEmail_TC_0001" class="entireSDET.TC01NCLogin"/>
+        <method signature="TC01NCLogin.ncLoginBtn_TC_0003()[pri:3, instance:entireSDET.TC01NCLogin@4722ef0c]" name="ncLoginBtn_TC_0003" class="entireSDET.TC01NCLogin"/>
+        <method signature="TC01NCLogin.ncPassword_TC_0002()[pri:2, instance:entireSDET.TC01NCLogin@4722ef0c]" name="ncPassword_TC_0002" class="entireSDET.TC01NCLogin"/>
+      </group> <!-- NCLoginCredentials -->
+    </groups>
+    <test started-at="2024-02-12T14:46:33Z" name="Default test" finished-at="2024-02-12T14:47:05Z" duration-ms="31279">
+      <class name="entireSDET.TC01NCLogin">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:entireSDET.TC01NCLogin@4722ef0c]" started-at="2024-02-12T14:46:33Z" name="browserSetup" finished-at="2024-02-12T14:46:52Z" duration-ms="18715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="ncEmail_TC_0001()[pri:1, instance:entireSDET.TC01NCLogin@4722ef0c]" started-at="2024-02-12T14:46:52Z" name="ncEmail_TC_0001" finished-at="2024-02-12T14:46:53Z" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ncEmail_TC_0001 -->
+        <test-method signature="ncPassword_TC_0002()[pri:2, instance:entireSDET.TC01NCLogin@4722ef0c]" started-at="2024-02-12T14:46:53Z" name="ncPassword_TC_0002" finished-at="2024-02-12T14:46:53Z" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ncPassword_TC_0002 -->
+        <test-method signature="ncLoginBtn_TC_0003()[pri:3, instance:entireSDET.TC01NCLogin@4722ef0c]" started-at="2024-02-12T14:46:53Z" name="ncLoginBtn_TC_0003" finished-at="2024-02-12T14:46:53Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ncLoginBtn_TC_0003 -->
+        <test-method signature="ncLogin(java.lang.String, java.lang.String)[pri:4, instance:entireSDET.TC01NCLogin@4722ef0c]" started-at="2024-02-12T14:46:53Z" name="ncLogin" data-provider="testData" depends-on-groups="NCLoginCredentials" finished-at="2024-02-12T14:46:58Z" duration-ms="4561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ncLogin -->
+        <test-method signature="ncLogin(java.lang.String, java.lang.String)[pri:4, instance:entireSDET.TC01NCLogin@4722ef0c]" started-at="2024-02-12T14:46:58Z" name="ncLogin" data-provider="testData" depends-on-groups="NCLoginCredentials" finished-at="2024-02-12T14:47:04Z" duration-ms="6047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ncLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:entireSDET.TC01NCLogin@4722ef0c]" started-at="2024-02-12T14:47:04Z" name="tearDown" finished-at="2024-02-12T14:47:05Z" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- entireSDET.TC01NCLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

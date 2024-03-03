@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="entireSDET.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="entireSDET.TC01NCLogin">
+        <methods>
+          <include name="ncPassword_TC_0002"/>
+          <include name="ncLogin"/>
+          <include name="browserSetup"/>
+          <include name="ncEmail_TC_0001"/>
+          <include name="tearDown"/>
+          <include name="ncLoginBtn_TC_0003"/>
+        </methods>
+      </class> <!-- entireSDET.TC01NCLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

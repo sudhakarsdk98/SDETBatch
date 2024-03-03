@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NC]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestScript1(failed)">
+    <groups>
+      <run>
+        <include name="NCLoginCredentials"/>
+        <exclude name="loginBtn"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testNG.TestScript1NG">
+        <methods>
+          <include name="ncEmailField"/>
+          <include name="ncPasswordField"/>
+        </methods>
+      </class> <!-- testNG.TestScript1NG -->
+    </classes>
+  </test> <!-- TestScript1(failed) -->
+</suite> <!-- Failed suite [NC] -->
